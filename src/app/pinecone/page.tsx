@@ -21,7 +21,7 @@ export default function Pinecone() {
 
   const handleUpload = async () => {
     const response = await fetch("api/updateDB", {
-      method: "POST",
+      // method: "POST",
       body: JSON.stringify({
         indexname,
         namespace,
